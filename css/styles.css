@@ -42,7 +42,11 @@
    ================
 */
 
-*,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 ::before,
 ::after {
   margin: 0;
@@ -373,7 +377,7 @@ p {
   padding-bottom: 1rem;
 }
 .tours-btn {
-  margin: 3rem auto;
+  margin: 4rem auto;
 }
 
 @media screen and (min-width: 567px) {
@@ -397,6 +401,6 @@ p {
     justify-content: space-between;
   }
   .tour-card {
-    flex: 0 0 calc(25% - 2rem);
+    flex: 0 0 calc(30% - 2rem);
   }
 }
